@@ -1,0 +1,670 @@
+{
+  "_comment": "Article catalogue served to visitors. Generated 2026-05-26T18:06:12.636Z by admin.html.",
+  "mysteryLabel": "Advanced Robotics Research",
+  "articles": {
+    "adv-science": [
+      {
+        "title": "Bioinspired Intelligent Soft Robotics: From Multidisciplinary Integration to Next‐Generation Intelligence",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202506296",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      },
+      {
+        "title": "Longitudinal MRI‐Driven Multi‐Modality Approach for Predicting Pathological Complete Response and B Cell Infiltration in Breast Cancer",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202413702",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      },
+      {
+        "title": "Applications of Artificial Intelligence in Drug Repurposing",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202411325",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      },
+      {
+        "title": "Machine Learning‐Enabled Drug‐Induced Toxicity Prediction",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202413405",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      },
+      {
+        "title": "A Multi‐Task Self‐Supervised Strategy for Predicting Molecular Properties and FGFR1 Inhibitors",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202412987",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      },
+      {
+        "title": "Gate‐Tunable Dual‐Mode Optoelectronic Device for Self‐Powered Photodetector and Optoelectronic Synapse",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202416259",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      },
+      {
+        "title": "Recent Advances in 3D Printed Electrodes – Bridging the Nano to Mesoscale",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/advs.202411951",
+        "tags": [],
+        "journalLabel": "Advanced Science"
+      }
+    ],
+    "adv-intelligent-systems": [
+      {
+        "title": "Real‐Time, Label‐Free Classification of Cell Death Pathways via Holotomography‐Based Deep Learning Framework",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aisy.202500633",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Multi‐Distance Spatial‐Temporal Graph Neural Network for Anomaly Detection in Blockchain Transactions",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400898",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "4D Printing of Polyethylene Glycol‐Grafted Carbon Nanotube‐Reinforced Polyvinyl Chloride–Polycaprolactone Composites for Enhanced Shape Recovery and Thermomechanical Performance",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202500113",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Advances in 3D and 4D Printing of Soft Robotics and Their Applications",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400699",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Roadmap on Artificial Intelligence‐Augmented Additive Manufacturing",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aisy.202500484",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Recent Advancements in Topic Modeling Techniques for Healthcare, Bioinformatics, and Other Potential Applications",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400528",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "From Simulation to Reality: Transfer Learning for Automating Pseudo‐Labeling of Real and Infrared Imagery",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400575",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Applied Artificial Intelligence in Materials Science and Material Design",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400986",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "A Hybrid Transfer Learning Framework for Brain Tumor Diagnosis",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400495",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Artificial Intelligence‐Enhanced, Closed‐Loop Wearable Systems Toward Next‐Generation Diabetes Management",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400822",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Medical Image Hybrid Watermark Algorithm Based on Frequency Domain Processing and Inception v3",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400654",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "A Proactive Agent Collaborative Framework for Zero‐Shot Multimodal Medical Reasoning",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400840",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Nanomechanical Systems for Reservoir Computing Applications",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400971",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Memimpedance‐Based Biomolecular Device for Adaptive Physical Reservoir Computing",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202500281",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Toward Autonomous Self‐Healing in Soft Robotics: A Review and Perspective for Future Research",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400790",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Multi‐Module Micro/Nanorobots for Biomedical and Environmental Remediation Applications",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400779",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Advances in Invertebrate Biohybrid Robotics: Leveraging Nature for Locomotion and Sensing in Engineered Systems",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202401105",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Monolithic Desktop Digital Fabrication of Autonomous Walking Robots",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202570027",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Compliant Robotics in Space: A Prospective Review of Soft and Deformable Systems for Space Missions",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400785",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Monolithic Desktop Digital Fabrication of Autonomous Walking Robots",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400876",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "In‐Sensor Reservoir Computing Using Ferroelectric Optoelectronic Synapse for Near‐Infrared Face Recognition",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202401073",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Fairness in Federated Learning: Trends, Challenges, and Opportunities",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400836",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Implementation of a Biologically Inspired Responsive Joint Attention System for a Social Robot",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400650",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Machine Learning‐Assisted Simulations and Predictions for Battery Interfaces",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202400626",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      },
+      {
+        "title": "Liveness‐Verified Dynamic Time Warping‐Based Authentication and Hybrid Adaptive Neuro‐Fuzzy Inference System Identification for Single‐Channel Diaphragmatic Breathing Surface Electromyography Biometrics",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aisy.202500015",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Systems"
+      }
+    ],
+    "adv-intelligent-discovery": [
+      {
+        "title": "RAMS: Residual‐Based Adversarial‐Gradient Moving Sample Method for Scientific Machine Learning in Solving Partial Differential Equations",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aidi.202500214",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "In Situ Graph Reasoning and Knowledge Expansion Using Graph‐PRefLexOR",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500006",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Overcoming the Nyquist Limit in Molecular Hyperspectral Imaging by Reinforcement Learning",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aidi.202500240",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Holographic Mapping of Orbital Angular Momentum using a Terahertz Diffractive Optical Neural Network",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aidi.202500222",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Accelerating Biosensor Discovery: A Computationally‐Driven Pipeline for Microplastics Monitoring",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aidi.202500156",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Machine Learning Driven Inverse Design of Broadband Acoustic Superscattering",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aidi.202500210",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Comparison of DeePMD, MTP, GAP, ACE and MACE Machine‐Learned Potentials for Radiation‐Damage Simulations: A User Perspective",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/aidi.202500196",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "AInsectID Version 1.1: An Insect Species Identification Software Based on the Transfer Learning of Deep Convolutional Neural Networks",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202400032",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "A Machine Learning Model for Interpretable PECVD Deposition Rate Prediction",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500074",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Decoding Tattoo and Permanent Makeup Pigments: Linking Physicochemical Properties to Absorption, Distribution, Metabolism, and Elimination Profiles Using Quantitative Structure–Activity Relationship (QSAR)‐Based New Approach Methodologies (NAMs)",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500027",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Simultaneous Topology Optimization of Differentiable and Non‐Differentiable Objectives via Morphology Learning: Stiffness and Cell Growth on Scaffold",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202400015",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "The Necessity of Dynamic Workflow Managers for Advancing Self‐Driving Labs and Optimizers",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500067",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "AI‐Enhanced Surface‐Enhanced Raman Scattering for Accurate and Sensitive Biomedical Sensing",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500030",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Machine Learning‐Assisted Infectious Disease Detection in Low‐Income Areas: Toward Rapid Triage of Dengue and Zika Virus Using Open‐Source Hardware",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500049",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Toward Knowledge‐Guided AI for Inverse Design in Manufacturing: A Perspective on Domain, Physics, and Human–AI Synergy",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500107",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Deep Learning‐Assisted Design of Mechanical Metamaterials",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500084",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Generative Ai for Cardiovascular Cell Type‐Specific Fluorescence Colorization of Live‐Cell hPSC‐Derived Cardiac Organoids",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202400041",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Cellpose+, a Morphological Analysis Tool for Feature Extraction of Stained Cell Images",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500005",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Introducing Advanced Intelligent Discovery: A New Era of Scientific Exploration",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500048",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Large Language Model in Materials Science: Roles, Challenges, and Strategic Outlook",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500085",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Interpretability and Representability of Commutative Algebra, Algebraic Topology, and Topological Spectral Theory for Real‐World Data",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500207",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Advanced 3D Microstructure Generation of Solid Oxide Cell Electrodes Using Conditional Generative Adversarial Network and Validation Using Nonintuitive Topological Characteristics",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500010",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Advances in Organic In‐Sensor Neuromorphic Computing: from Material Mechanisms to Applications",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500053",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Inverse Design of Alloys via Generative Algorithms: Optimization and Diffusion within Learned Latent Space",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500069",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      },
+      {
+        "title": "Two‐Stage GAN‐Based Generation of Virtual 3D Multicrystalline Silicon Reproducing Nucleation and Crystal Growth Processes Using Crystallographic Information from Real Ingots",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/aidi.202500012",
+        "tags": [],
+        "journalLabel": "Advanced Intelligent Discovery"
+      }
+    ],
+    "mystery": [
+      {
+        "title": "TreeSpider: In‐Canopy Exploration With Tether‐Based Aerial Modular Arms",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/adrr.202500111",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Vision‐Assisted Avocado Harvesting with Aerial Bimanual Manipulation",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500003",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Cross‐Scale Hierarchical Targeted Delivery System Based on Small‐Scale Magnetic Robots",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/adrr.202500187",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Multimodal Locomotion in Insect‐Inspired Microrobots: A Review of Strategies for Aerial, Surface, Aquatic, and Interfacial Motion",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500113",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "AI‐Powered Framework for Evaluating Drug Efficacy for Three‐Dimensional In Vitro Cancer Models in Robot‐Assisted Production",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/adrr.202500049",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "A Soft Robotic Device for Targeted Massage Therapy of Residual Limbs",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/adrr.202500161",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Hybrid Continuum Robot Designs and Architectures for Healthcare Applications",
+        "authors": "—",
+        "type": "Article · 2026",
+        "doi": "10.1002/adrr.202500177",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Recent Advances in Robotic Systems for Robot‐Assisted Transoral Surgical Procedures: A Systematic Review",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500074",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Multi‐Material Additive Manufacturing of Soft Robotic Systems: A Comprehensive Review",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500064",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "An AI‐Enabled All‐In‐One Visual, Proximity, and Tactile Perception Multimodal Sensor",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500062",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Automated Fabrication of 3D Printed Magnetic Soft Robots With Programmable 3D Magnetizations",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202400005",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Tumbling Magnetic Microrobots for Targeted In Vivo Drug Delivery in the GI Tract",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500135",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Liquid Metal Sensors for Soft Robots",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500057",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "A Beating‐Heart Procedure with Soft Robotic Guidance",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202400023",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Near‐Infrared‐Driven Metal–Organic Frameworks‐Based Nanorobots for Controlled Photothermal‐Chemical Therapy Synergistic Induction of Cancer Cell Death",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500104",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Magnetic Field Driven Microrobot Based on Hydrogels",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500103",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Inflatable Kirigami Crawlers",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500044",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Formation Control of Multi‐Agent System with Local Interaction and Artificial Potential Field",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500055",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Toward Wireless Implantable Robotic Systems Driven by Magnetic Field for Personalized Therapy",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500077",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Poka: A Necro‐Robot Beetle with a Measured Payload Ratio of 6847%",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202400020",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "From Rigid to Soft Robotic Approaches for Neuroendoscopy",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500017",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "A Review on Sensor Technologies, Control Approaches, and Emerging Challenges in Soft Robotics",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500085",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Hard‐Magnetic Soft Millirobots in Underactuated Systems",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202500071",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Clinical Challenges in Soft Robotics",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202400018",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      },
+      {
+        "title": "Hierarchical Learning for Robotic Assembly Tasks Leveraging Learning from Demonstration",
+        "authors": "—",
+        "type": "Article · 2025",
+        "doi": "10.1002/adrr.202400024",
+        "tags": [],
+        "journalLabel": "Advanced Robotics Research"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Wiley Spin the Wheel — Three Directions</title>
+<link rel="stylesheet" href="assets/colors_and_type.css">
+<link rel="stylesheet" href="shared.css">
+<style>
+  html, body { background: #E5E4E0; margin: 0; }
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="content.js"></script>
+<script type="text/babel" src="design-canvas.jsx"></script>
+<script type="text/babel" src="wheel.jsx"></script>
+<script type="text/babel" src="popup.jsx"></script>
+<script type="text/babel" src="variant-editorial.jsx"></script>
+<script type="text/babel" src="variant-marketing.jsx"></script>
+<script type="text/babel" src="variant-covers.jsx"></script>
+
+<script type="text/babel">
+function App() {
+  const W = 1320;
+  const H = 820;
+  return (
+    <DesignCanvas
+      title="Wiley · Spin the Wheel"
+      subtitle="Three landing-page directions · 7-slice random article picker"
+    >
+      <DCSection id="variants"
+        title="Spin the wheel"
+        subtitle="One spin · one open-access paper · seven slices"
+      >
+        <DCArtboard id="editorial"
+          label="A · Editorial Paper"
+          width={W} height={H}>
+          <VariantEditorial />
+        </DCArtboard>
+        <DCArtboard id="marketing"
+          label="B · Deep Teal Marketing"
+          width={W} height={H}>
+          <VariantMarketing />
+        </DCArtboard>
+        <DCArtboard id="covers"
+          label="C · Cover-Forward"
+          width={W} height={H}>
+          <VariantCovers />
+        </DCArtboard>
+      </DCSection>
+    </DesignCanvas>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

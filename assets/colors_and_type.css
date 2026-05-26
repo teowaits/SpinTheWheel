@@ -1,0 +1,277 @@
+/* =========================================================
+   Wiley Design System — Foundation Tokens
+   Source of truth for color, type, spacing, radius, elevation.
+   ========================================================= */
+
+/* --- Type: Inter (local brand variable files) ---------- */
+/* Inter is the sole brand sans — used for display, headings, body, UI, and text buttons.
+   Only IBM Plex Mono accompanies it, reserved for button labels, eyebrows, and metadata. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/Inter-VariableFont_opsz_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+}
+
+/* --- Type: IBM Plex Mono (local brand files) ----------- */
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 100; font-display: swap; src: url('../fonts/IBMPlexMono-Thin.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 100; font-display: swap; src: url('../fonts/IBMPlexMono-ThinItalic.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 200; font-display: swap; src: url('../fonts/IBMPlexMono-ExtraLight.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 200; font-display: swap; src: url('../fonts/IBMPlexMono-ExtraLightItalic.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 300; font-display: swap; src: url('../fonts/IBMPlexMono-Light.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 300; font-display: swap; src: url('../fonts/IBMPlexMono-LightItalic.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/IBMPlexMono-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 400; font-display: swap; src: url('../fonts/IBMPlexMono-Italic.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('../fonts/IBMPlexMono-Medium.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 500; font-display: swap; src: url('../fonts/IBMPlexMono-MediumItalic.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/IBMPlexMono-SemiBold.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 600; font-display: swap; src: url('../fonts/IBMPlexMono-SemiBoldItalic.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/IBMPlexMono-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'IBM Plex Mono'; font-style: italic; font-weight: 700; font-display: swap; src: url('../fonts/IBMPlexMono-BoldItalic.ttf') format('truetype'); }
+
+:root {
+  /* =========================================================
+     CORE COLOR TOKENS
+     ========================================================= */
+
+  /* Brand 1 — Deep Teal (primary dark / headings / wordmark) */
+  --wiley-teal-900: #001E22;
+  --wiley-teal-800: #00292F;
+  --wiley-teal-700: #003B44;   /* primary */
+  --wiley-teal-600: #005965;
+  --wiley-teal-500: #008F8A;
+  --wiley-teal-400: #4DB8B1;
+  --wiley-teal-200: #B5E1DD;
+  --wiley-teal-100: #E4F3F1;
+
+  /* Brand 2 — Bright Green (primary interactive accent) */
+  --wiley-green-900: #00301E;
+  --wiley-green-800: #005E3A;   /* hover / deep */
+  --wiley-green-700: #14AE5C;
+  --wiley-green-600: #00D875;   /* primary accent */
+  --wiley-green-500: #60E7A9;
+  --wiley-green-400: #AFE67F;   /* lime-ish */
+  --wiley-green-300: #BFF5DD;
+  --wiley-green-200: #D9FBEA;
+  --wiley-green-100: #EFFDF6;
+
+  /* Accent — Violet (used sparingly for editorial highlights, annotations) */
+  --wiley-violet-700: #5A3DB0;
+  --wiley-violet-500: #9747FF;
+  --wiley-violet-200: #E3D4FF;
+
+  /* Neutrals — warm, paper-like */
+  --wiley-ink-900: #07181B;     /* deep ink */
+  --wiley-ink-800: #1C1B1F;
+  --wiley-ink-700: #302F2F;     /* body text */
+  --wiley-ink-600: #5D5E5C;     /* secondary text */
+  --wiley-ink-500: #8C8B89;     /* tertiary text / icons */
+  --wiley-ink-400: #ADACA8;
+  --wiley-ink-300: #C9C7C2;
+  --wiley-ink-200: #D4D2CF;
+  --wiley-ink-150: #DADADA;
+
+  /* Warm surfaces */
+  --wiley-line:    #E5E4E0;     /* default 1px border */
+  --wiley-paper:   #F2F2EB;     /* warm surface */
+  --wiley-canvas:  #F8F8F5;     /* softer surface */
+  --wiley-fog:     #FAFAFA;
+  --wiley-white:   #FFFFFF;
+  --wiley-black:   #000000;
+
+  /* Status (derived to harmonize with brand) */
+  --wiley-success: var(--wiley-green-800);
+  --wiley-warning: #B8782C;
+  --wiley-danger:  #B3261E;
+  --wiley-info:    var(--wiley-teal-600);
+
+  /* =========================================================
+     SEMANTIC ALIASES (use these in components)
+     ========================================================= */
+  --color-bg:           var(--wiley-white);
+  --color-bg-muted:     var(--wiley-paper);
+  --color-bg-raised:    var(--wiley-white);
+  --color-bg-inverse:   var(--wiley-teal-700);
+
+  --color-fg:           var(--wiley-ink-700);
+  --color-fg-muted:     var(--wiley-ink-600);
+  --color-fg-subtle:    var(--wiley-ink-500);
+  --color-fg-inverse:   var(--wiley-white);
+  --color-fg-brand:     var(--wiley-teal-700);
+
+  --color-border:       var(--wiley-line);
+  --color-border-strong:var(--wiley-ink-200);
+
+  --color-accent:       var(--wiley-green-600);
+  --color-accent-hover: var(--wiley-green-800);
+  --color-accent-soft:  var(--wiley-green-300);
+  --color-accent-fg:    var(--wiley-teal-900);
+
+  --color-link:         var(--wiley-teal-700);
+  --color-link-hover:   var(--wiley-green-800);
+
+  --color-focus-ring:   var(--wiley-green-600);
+
+  /* =========================================================
+     TYPOGRAPHY
+     ========================================================= */
+
+  /* Families */
+  /* One sans for everything typographic: Inter, variable 100–900 + italic. */
+  --font-inter:   'Inter', -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --font-display: var(--font-inter);
+  --font-body:    var(--font-inter);
+  --font-ui:      var(--font-inter);
+  --font-mono:    'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Weights */
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+
+  /* Display type scale (Inter — large, tight, light) */
+  --fs-display-xl: 80px;
+  --fs-display-lg: 64px;
+  --fs-display-md: 48px;
+  --fs-display-sm: 32px;
+
+  /* Heading type scale */
+  --fs-h1: 48px;
+  --fs-h2: 32px;
+  --fs-h3: 24px;
+  --fs-h4: 20px;
+  --fs-h5: 18px;
+  --fs-h6: 16px;
+
+  /* Body type scale */
+  --fs-body-lg: 18px;
+  --fs-body-md: 16px;
+  --fs-body-sm: 14px;
+  --fs-body-xs: 12px;
+
+  /* Line heights */
+  --lh-tight:   1.1;
+  --lh-snug:    1.25;
+  --lh-normal:  1.5;
+  --lh-relaxed: 1.625;
+
+  /* Letter-spacing */
+  --tracking-tight:  -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.05em;
+  --tracking-mono:   0.1em;   /* signature Wiley button spacing */
+
+  /* =========================================================
+     SPACING (4px grid)
+     ========================================================= */
+  --space-0:   0;
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-7:   32px;
+  --space-8:   40px;
+  --space-9:   48px;
+  --space-10:  64px;
+  --space-11:  80px;
+  --space-12:  96px;
+  --space-13:  128px;
+
+  /* =========================================================
+     RADIUS
+     ========================================================= */
+  --radius-none: 0;
+  --radius-xs:   1px;     /* hairline containers (per Figma) */
+  --radius-sm:   4px;
+  --radius-md:   8px;     /* default — buttons, cards, inputs */
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* =========================================================
+     ELEVATION (from Figma Elevation frame)
+     ========================================================= */
+  --shadow-none: none;
+  --shadow-xs:   0 2px 4px 0 rgba(51,51,51,0.10);
+  --shadow-sm:   0 2px 4px 0 rgba(51,51,51,0.12);
+  --shadow-md:   0 6px 8px -4px rgba(0,0,0,0.16),
+                 0 3px 4px -2px rgba(0,0,0,0.13),
+                 0 0 2px 0 rgba(0,0,0,0.10);
+  --shadow-lg:   0 16px 20px -8px rgba(0,0,0,0.12),
+                 0 6px 10px -2px rgba(0,0,0,0.10),
+                 0 4px 6px 0 rgba(0,0,0,0.08),
+                 0 0 2px 0 rgba(0,0,0,0.10);
+
+  /* =========================================================
+     MOTION
+     ========================================================= */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasis: cubic-bezier(0.2, 0, 0, 1.1);
+  --dur-fast:   120ms;
+  --dur-base:   200ms;
+  --dur-slow:   320ms;
+
+  /* =========================================================
+     LAYOUT
+     ========================================================= */
+  --container-sm: 640px;
+  --container-md: 960px;
+  --container-lg: 1200px;
+  --container-xl: 1440px;
+}
+
+/* =========================================================
+   BASE / RESET
+   ========================================================= */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body-md);
+  line-height: var(--lh-normal);
+  color: var(--color-fg);
+  background: var(--color-bg);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+::selection { background: var(--wiley-green-300); color: var(--wiley-teal-900); }
+
+/* =========================================================
+   TYPE UTILITY CLASSES
+   ========================================================= */
+.t-display-xl { font-family: var(--font-inter); font-weight: 300;                font-size: var(--fs-display-xl); line-height: var(--lh-tight); letter-spacing: -0.025em; }
+.t-display-lg { font-family: var(--font-inter); font-weight: 300;                font-size: var(--fs-display-lg); line-height: var(--lh-tight); letter-spacing: -0.025em; }
+.t-display-md { font-family: var(--font-inter); font-weight: 300;                font-size: var(--fs-display-md); line-height: var(--lh-snug);  letter-spacing: -0.02em;  }
+.t-display-sm { font-family: var(--font-inter); font-weight: var(--fw-regular);  font-size: var(--fs-display-sm); line-height: var(--lh-snug);  letter-spacing: -0.015em; }
+
+.t-h1 { font-family: var(--font-inter); font-weight: 300;                 font-size: var(--fs-h1); line-height: var(--lh-tight); letter-spacing: -0.02em; }
+.t-h2 { font-family: var(--font-inter); font-weight: var(--fw-regular);   font-size: var(--fs-h2); line-height: var(--lh-snug);  letter-spacing: -0.015em; }
+.t-h3 { font-family: var(--font-inter); font-weight: var(--fw-medium);    font-size: var(--fs-h3); line-height: var(--lh-snug);  letter-spacing: -0.01em; }
+.t-h4 { font-family: var(--font-ui);      font-weight: var(--fw-semibold); font-size: var(--fs-h4); line-height: var(--lh-snug); }
+.t-h5 { font-family: var(--font-ui);      font-weight: var(--fw-semibold); font-size: var(--fs-h5); line-height: var(--lh-snug); }
+.t-h6 { font-family: var(--font-ui);      font-weight: var(--fw-semibold); font-size: var(--fs-h6); line-height: var(--lh-normal); }
+
+.t-body-lg { font-family: var(--font-body); font-size: var(--fs-body-lg); line-height: var(--lh-relaxed); }
+.t-body    { font-family: var(--font-body); font-size: var(--fs-body-md); line-height: var(--lh-normal); }
+.t-body-sm { font-family: var(--font-body); font-size: var(--fs-body-sm); line-height: var(--lh-normal); }
+.t-caption { font-family: var(--font-body); font-size: var(--fs-body-xs); line-height: var(--lh-normal); letter-spacing: 0.02em; }
+
+.t-mono-btn { font-family: var(--font-mono); font-weight: var(--fw-medium); letter-spacing: var(--tracking-mono); text-transform: none; }
+.t-eyebrow  { font-family: var(--font-mono); font-weight: var(--fw-medium); font-size: var(--fs-body-xs); letter-spacing: var(--tracking-mono); text-transform: uppercase; color: var(--color-fg-muted); }

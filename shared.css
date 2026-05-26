@@ -1,0 +1,22 @@
+/* Shared keyframes + tiny resets for all variants */
+
+@keyframes popup-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes popup-rise {
+  from { opacity: 0; transform: translateY(24px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes confetti-fly {
+  from { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+  to   { transform: translate(var(--dx, 0), var(--dy, -300px)) rotate(var(--rot, 360deg)); opacity: 0; }
+}
+@keyframes mystery-reveal {
+  from { opacity: 0; transform: translateY(8px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+a { color: inherit; }
+button { font-family: inherit; }
+em { font-style: italic; }

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wiley × AI · Spin The Wheel</title>
+<link rel="stylesheet" href="assets/colors_and_type.css">
+<link rel="stylesheet" href="shared.css">
+<style>
+  html, body { background: #001E22; margin: 0; height: 100%; }
+  #root { width: 100vw; height: 100vh; }
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="content.js"></script>
+<script type="text/babel" src="wheel.jsx"></script>
+<script type="text/babel" src="popup.jsx"></script>
+<script type="text/babel" src="variant-marketing.jsx"></script>
+
+<script type="text/babel">
+  /* Pull the article catalogue from articles.json on the server.
+     This file is the single source of truth — edited by the
+     publishing team and deployed to the page's hosting path.
+     If the fetch fails for any reason, the built-in defaults in
+     content.js are used so the page never breaks. */
+  async function boot() {
+    // Fetch the article catalogue but never block the render — if the
+    // server is unreachable or fetch is taking too long, fall back to
+    // built-in defaults so visitors always see a working wheel.
+    function withTimeout(promise, ms) {
+      return Promise.race([
+        promise,
+        new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), ms)),
+      ]);
+    }
+    try {
+      const r = await withTimeout(fetch('articles.json', { cache: 'no-cache' }), 1500);
+      if (r.ok) {
+        const data = await r.json();
+        if (data && data.articles) {
+          for (const k of Object.keys(window.ARTICLES)) {
+            window.ARTICLES[k] = Array.isArray(data.articles[k]) ? data.articles[k] : [];
+          }
+        }
+        if (data && data.mysteryLabel && window.JOURNALS && window.JOURNALS.mystery) {
+          window.JOURNALS.mystery.name  = data.mysteryLabel;
+          window.JOURNALS.mystery.short = data.mysteryLabel;
+        }
+        if (window.JOURNALS && window.JOURNALS.mystery) {
+          if (data && data.mysteryCover)  window.JOURNALS.mystery.cover = data.mysteryCover;
+          if (data && data.mysteryUrl)    window.JOURNALS.mystery.url   = data.mysteryUrl;
+          if (data && data.mysteryIssue)  window.JOURNALS.mystery.issue = data.mysteryIssue;
+        }
+      }
+    } catch (e) { /* fall back to defaults silently */ }
+    ReactDOM.createRoot(document.getElementById('root')).render(<VariantMarketing />);
+  }
+  boot();
+</script>
+</body>
+</html>
