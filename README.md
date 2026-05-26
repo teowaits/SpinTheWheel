@@ -36,7 +36,6 @@ Spin The Wheel/
 │   └── mystery.jpg            ← swap when the mystery journal rotates
 │
 ├── fonts/                     ← Inter + IBM Plex Mono (variable + static)
-└── index.html                 ← internal design canvas (3-direction comparison; can be deleted before deploy)
 ```
 
 ## Deploying
